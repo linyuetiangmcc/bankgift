@@ -1,0 +1,13 @@
+#logging:
+#  pattern:
+#    console: "%d - %msg%n"
+#  path: /Users/user/log/tomcat
+#  file: /Users/user/log/tomcat/bankgift.log
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: 123456
+    url: jdbc:mysql://127.0.0.1/bankgift?characterEncoding=utf-8&useSSL=false
+  jpa:
+    show-sql: true
