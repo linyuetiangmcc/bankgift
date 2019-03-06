@@ -10,7 +10,7 @@
 	</parent>
 
 
-	<groupId>com.tiger</groupId>
+	<groupId>com.bankgift</groupId>
 	<artifactId>bankgift</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>bankgift</name>
