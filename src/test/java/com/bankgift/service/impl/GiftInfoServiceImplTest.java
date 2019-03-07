@@ -49,7 +49,7 @@ public class GiftInfoServiceImplTest {
         giftInfo.setActivityDescription("每月刷10000");
         giftInfo.setActivityUrl("http://sina.com");
         giftInfo.setGiftIcon("sdfsdfsf");
-        giftInfo.setBankId(7);
+        giftInfo.setBankId(0);
         giftInfo.setBankName("中行");
         Date now = new Date();
         giftInfo.setStartTime(now);
