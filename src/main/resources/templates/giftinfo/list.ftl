@@ -49,7 +49,8 @@
                     <form class="navbar-form navbar-left" role="search">
                         <div class="form-group">
                             <input type="text" class="form-control" />
-                        </div> <button type="submit" class="btn btn-default">搜索</button>
+                        </div>
+                        <button type="submit" class="btn btn-default">搜索</button>
                     </form>
                 </div>
             </nav>
