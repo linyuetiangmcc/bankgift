@@ -8,5 +8,7 @@ import java.util.List;
 public interface GiftInfoRepository extends JpaRepository<GiftInfo,String> {
     List<GiftInfo> findByGiftStatus(Integer giftStatus);
 
+    List<GiftInfo> findByIsRecommend(Integer isRecommend);
 
+    List<GiftInfo> findByBankId(Integer bankId);
 }

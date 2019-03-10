@@ -35,4 +35,6 @@ public class GiftInfo {
     private String giftIcon;
 
     private Integer giftStatus;
+
+    private Integer isRecommend;
 }

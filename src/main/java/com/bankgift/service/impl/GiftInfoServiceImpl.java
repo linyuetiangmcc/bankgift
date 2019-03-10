@@ -32,7 +32,17 @@ public class GiftInfoServiceImpl implements GiftInfoService {
     }
 
     @Override
+    public List<GiftInfo> findByIsRecommend(Integer isRecommend) {
+        return repository.findByIsRecommend(isRecommend);
+    }
+
+    @Override
     public GiftInfo save(GiftInfo giftInfo) {
         return repository.save(giftInfo);
+    }
+
+    @Override
+    public List<GiftInfo> findByBankId(Integer bankId) {
+        return repository.findByBankId(bankId);
     }
 }

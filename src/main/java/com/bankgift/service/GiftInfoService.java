@@ -13,4 +13,7 @@ public interface GiftInfoService {
     Page<GiftInfo> findAll(Pageable pageable);
     GiftInfo save(GiftInfo giftInfo);
 
+    List<GiftInfo> findByIsRecommend(Integer isRecommend);
+
+    List<GiftInfo> findByBankId(Integer bankId);
 }
